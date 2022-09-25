@@ -14,6 +14,7 @@
 <h1>Skate</h1>
 
 <div class="form">
+	//php_self to store the values in super-global
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
   <input type="text" id="name" name="name" autofocus placeholder="search">
   <input type="submit" value="search">
